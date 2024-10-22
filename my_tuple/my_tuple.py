@@ -171,12 +171,10 @@ data = ["Tom", 37, "Google"]
 
 
 
-# string = "hello",
+# string = "hello"
+# print(tuple(string))
 
-# for i in string:
-#     print(tuple(i))
-
-#
+# #
 # tuple_1 = (1, 3, 5)
 # tuple_2 = (2, 4, 6)
 # resul = []
@@ -204,6 +202,26 @@ data = ["Tom", 37, "Google"]
 # tuple_2 = (1, 2, 3)
 # res = tuple1(tuple_1, tuple_2)
 # print(res)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

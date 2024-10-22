@@ -114,7 +114,7 @@ import time
 # def divide(a, b):
 #     if a / b:
 #         print(f"{a} / {b} = {a / b}")
-#     elif a / 0 or b / 0:
+#     elif a / 0 or 0 / b:
 #         print("нельзя делит на ноль !!!!")
 #
 # def start():
@@ -175,7 +175,7 @@ import time
 #     def decorator(func):
 #         def wrapper(*args):
 #             for i in range(times):
-#                 print(f"Вызов {i+1}:")
+#                 print(f"Вызов {i + 1}:")
 #                 result = func(*args)
 #                 print(result)
 #         return wrapper
@@ -248,12 +248,6 @@ import time
 #
 #
 # damage()
-
-
-
-
-
-
 
 
 

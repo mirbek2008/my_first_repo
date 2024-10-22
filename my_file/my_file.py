@@ -17,9 +17,9 @@
 #     file.close()
 
 # with open("hello.txt", "w") as my_file:
-#     print("\nhello metanit.com", file=myfile)
-
-    #my_file.close()
+#     print("hello metanit.com", file=my_file)
+#
+#     my_file.close()
 
 
 # with open("hello.txt", "r") as file:
@@ -45,7 +45,7 @@
 #     while line:
 #         print(line, end="")
 #         line = file.readline()
-    #file.close()
+#     file.close()
 
 
 # with open("hello.txt", "r") as file:
@@ -79,7 +79,7 @@
 
 
 
-
+#
 # students = ["mirbek 89\n", "zamir 91\n", "maderbek 80,"]
 #
 # with open("students.txt", "w") as my_file:
@@ -119,21 +119,11 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# with open("hello.txt", "w+") as file:
+#     file.write("Hello world\nHello work\n")  # сначала записываем данные
+#     file.seek(0)        # перемещаемся к первому байту в файле
+#     content = file.read()   # считываем данные
+#     print(content)
 
 
 

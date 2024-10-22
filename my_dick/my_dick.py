@@ -1,6 +1,7 @@
 # names = {"m": "mirbek", "a": "ainazik", "r": "aiana", "k": "zamirbek"}
 # n = names["r"]
 # print(n)
+import list
 
 # for i in names.items():
 #     print(i)
@@ -216,7 +217,7 @@
 #             n[keys] = values
 #         else:
 #             n1[keys] = values
-#     return f"Прошли {n},\n Не прошли {n1}"
+#     return f"Прошли {n}\nНе прошли {n1}"
 # res = students()
 # print(res)
 
@@ -290,9 +291,9 @@
 
 
 
-# import random
-#
-#
+#import random
+
+
 # animals = {
 #     'слон': 'Это самое большое наземное животное.',
 #     'тигр': 'Это полосатый хищник.',
@@ -300,14 +301,13 @@
 #     'крокодил': 'Это рептилия, которая живет в воде.',
 #     'коала': 'Это сумчатое животное, которое обитает в Австралии.',
 # }
-#
+# #
 # def guess_animal_game(my_dict):
 #     print("Угадайте животное!")
 #     list_1 = list(my_dict.items())
 #     while True:
 #         random_animals_1 = random.choice(list_1)
 #         h = []
-#
 #         for i in random_animals_1:
 #             if i not in h:
 #                 h.append(i)
@@ -360,6 +360,48 @@
 # 	print(f"очко: {sum([k for i in text for k, v in points_ru.items() if i in v])}")
 # else:
 # 	print(sum([k for i in text for k, v in points_en.items() if i in v]))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

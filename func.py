@@ -130,10 +130,7 @@
 
 
 # def true_or_false(word, symbol):
-#     if symbol in word:
-#         print(True)
-#     else:
-#         print(False)
+#    print(symbol in word)
 #
 # true_or_false("python", "m")
 

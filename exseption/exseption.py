@@ -212,11 +212,10 @@
 
 
 
-
-
-
-
-
+# try:
+#     #код
+# except Exception as e:
+#     print(e)
 
 
 

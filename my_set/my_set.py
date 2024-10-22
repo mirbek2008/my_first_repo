@@ -216,14 +216,28 @@
 
 
 
+# sentence = "apple", "banana", "orange", "apple", "lemon", "banana"
+# n = set(sentence)
+# print(len(n.difference()))
 
 
+# list1 = [1, 2, 3, 4, 5]
+# list2 = [4, 5, 6, 7, 8]
+# set_1 = set(list1)
+# set_2 = set(list2)
+# print(list(set_1.intersection(set_2)))
 
 
+# numbers = [1, 2, 2, 3, 4, 4, 5, 6, 6]
+# print(list(set(numbers)))
 
 
+# set_1 = {1, 2, 3, 4, 5}
+# set_2 = {4, 5, 6, 7, 8}
 
+# print(set_1 | set_2)#union()
 
+# print(set_1 & set_2)#intersection
 
-
-
+# set_1.add(6)
+# print(set_1)#добавлять одиночный элемент

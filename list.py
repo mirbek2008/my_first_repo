@@ -223,10 +223,9 @@
 
 
 # def find_odd_numbers():
-#     num = [34, 33, 55, 66, 30,]
-#     num2 = list(num)
-#     print(f"все числы: {num2}")
-#     for a in num2:
+#     num = [34, 33, 55, 65, 30,]
+#     print(f"все числы: {num}")
+#     for a in num:
 #         if a % 2 != 0:
 #             print(f"нечетные числы: {a} ")
 #
@@ -237,6 +236,13 @@
 
 
 
+# def capitalize_if_starts_with(strings, letter):
+#     if strings[0] == letter:
+#         print(strings.capitalize())
+#     else:
+#         print(strings)
+#
+# capitalize_if_starts_with("hello", "h")
 
 
 
