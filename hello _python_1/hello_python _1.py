@@ -1,2 +1,1 @@
 print("hh")
-print('ddd')
